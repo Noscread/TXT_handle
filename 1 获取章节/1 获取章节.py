@@ -60,7 +60,7 @@ def read_txt(file_path):
 
 
 if __name__ == "__main__":
-    file_path = '测试.txt'
+    file_path = '../测试.txt'
     contents = read_txt(file_path)
     print(contents.get('小说目录', '默认值'))
     # print(contents.get('小说正文', '默认值'))

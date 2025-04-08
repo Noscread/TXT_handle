@@ -53,7 +53,7 @@ def save_array_to_file(array, output_dir, output_filename):
         print(f"保存文件时出错: {e}")
 
 if __name__ == "__main__":
-    file_path = '测试.txt'
+    file_path = '../测试.txt'
 
     # content = read_file(file_path)
     # if content is not None:
